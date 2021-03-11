@@ -1,5 +1,7 @@
-# Simple SQS processor written in Golang
+# Simple SQS processor in Golang
 this is a show case on how to use localstack as an alternative for local development using AWS services
+
+![architecture](/diagram.png)
 
 ## How to run
 run localstack, this will run s3, sqs and dynamodb and create the resources in `localstack_setup/001_localstack_setup.sh`
